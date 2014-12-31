@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1419977382
+#1419988181
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -10,6 +10,14 @@ images/explosion-sheet0.png
 images/bottle-sheet0.png
 images/hazard-sheet0.png
 media/sound%20effects%20explosion.m4a
+media/aw_yeah.m4a
+media/aw_yeah.ogg
+media/aw_yeah_long_converted.m4a
+media/aw_yeah_long_converted.ogg
+media/crash.m4a
+media/crash.ogg
+media/theme.m4a
+media/theme.ogg
 icon-16.png
 icon-32.png
 icon-114.png
