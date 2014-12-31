@@ -20231,6 +20231,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet,
 	cr.behaviors.Fade,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.Audio.prototype.acts.PlayByName,
 	cr.plugins_.Audio.prototype.acts.PreloadByName,
 	cr.system_object.prototype.cnds.EveryTick,
