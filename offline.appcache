@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1419989249
+#1419997361
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -9,6 +9,9 @@ images/pothole-sheet0.png
 images/explosion-sheet0.png
 images/bottle-sheet0.png
 images/hazard-sheet0.png
+images/cash-sheet0.png
+images/supercar-sheet0.png
+images/sim-sheet0.png
 media/sound%20effects%20explosion.m4a
 media/aw_yeah.m4a
 media/aw_yeah.ogg

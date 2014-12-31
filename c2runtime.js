@@ -20234,6 +20234,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.Audio.prototype.acts.PlayByName,
 	cr.plugins_.Audio.prototype.acts.PreloadByName,
+	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Sprite.prototype.acts.SetAngle,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -20247,7 +20248,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Sprite.prototype.cnds.IsOutsideLayout,
-	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.exps.X,
 	cr.plugins_.Sprite.prototype.exps.Y,
@@ -20255,5 +20255,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.plugins_.Touch.prototype.cnds.CompareOrientation,
-	cr.behaviors.EightDir.prototype.acts.SimulateControl
+	cr.behaviors.EightDir.prototype.acts.SimulateControl,
+	cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
+	cr.behaviors.EightDir.prototype.acts.SetVectorX,
+	cr.behaviors.EightDir.prototype.exps.VectorX
 ];};
